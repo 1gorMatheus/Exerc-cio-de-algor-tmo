@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://www.emporiotambo.com.br/wp/wp-content/uploads/2019/09/padr%C3%A3o-pastel-frito.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contPrincipal{
+    width: 45vw;
+    height: 100vh;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.preparo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
