@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: 0.2s linear;
+  }
+body{
+    background: #F66000;
+
+}
+.tittle{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 5rem;
+    text-transform: uppercase;
+    padding-left: 4rem;
+}
+.VnW{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 0 0 3.8125rem 13.5625rem;
+    
+}
+.produtos{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 4rem;
+    padding-left: 4rem;
+}
+.compras{
+    display: flex;
+}
+.frutas{
+    width: 61rem;
+}
+.frutas img{
+    width: 15rem;
+}
+.caixa{
+    width: 24rem;
+    height: 32.6875rem;
+    background: #F7E0CE;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    right: 2rem;
+    bottom: 2rem;
+}
+.carrinho{
+    background: #D3C5BB;
+    width: 16.5rem;
+    height: 19.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20%;
+    position: absolute;
+    top : 3rem
+}
+.maisMenos{
+    width: 12.0625rem;
+    height: 3.9375rem;
+    background: #D3C5BB;
+    border-radius: 3rem;
+    position: absolute;
+    top: 28rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    width: 11rem;
+    text-align: center;
+}
